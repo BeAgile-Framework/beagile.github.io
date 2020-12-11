@@ -1,0 +1,1635 @@
+<!DOCTYPE html><html lang="en" data-react-helmet="lang"><head><meta charset="utf-8"><link rel="icon" href="/favicon.png"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1"><meta name="theme-color" content="#FFFFFF"><link rel="manifest" href="/manifest.json"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&amp;display=swap"><title>Be Agile Framework</title><link href="/static/css/main.01524ce3.chunk.css" rel="stylesheet"><style type="text/css">.TransformComponent-module_container__3NwNd {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+.TransformComponent-module_content__TZU5O {
+  display: flex;
+  flex-wrap: wrap;
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  transform-origin: 0% 0%;
+}
+.TransformComponent-module_content__TZU5O img {
+  pointer-events: none;
+}
+</style><style data-jss="" data-meta="MuiCssBaseline">
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+strong, b {
+  font-weight: 700;
+}
+body {
+  color: #233C54;
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  background-color: #FFFFFF;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+body::backdrop {
+  background-color: #FFFFFF;
+}
+</style><style data-jss="" data-meta="MuiBox">
+
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="Section">
+.jss21 {
+  display: flex;
+  padding: 28px 28px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width:1200px) {
+  .jss21 {
+    padding: 28px 54px;
+  }
+}
+</style><style data-jss="" data-meta="MuiTypography">
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+.MuiTypography-body1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiTypography-h1 {
+  font-size: 40px;
+  font-family: "Baloo 2";
+  font-weight: 800;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+  text-transform: uppercase;
+}
+.MuiTypography-h2 {
+  font-size: 30px;
+  font-family: "Baloo 2";
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.00833em;
+  text-transform: uppercase;
+}
+.MuiTypography-h3 {
+  font-size: 3rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.167;
+  letter-spacing: 0em;
+}
+.MuiTypography-h4 {
+  font-size: 2.125rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+}
+.MuiTypography-h5 {
+  font-size: 1.5rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.334;
+  letter-spacing: 0em;
+}
+.MuiTypography-h6 {
+  font-size: 1.25rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+}
+.MuiTypography-subtitle2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.57;
+  letter-spacing: 0.00714em;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 2.66;
+  letter-spacing: 0.08333em;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #3f51b5;
+}
+.MuiTypography-colorSecondary {
+  color: #E7404A;
+}
+.MuiTypography-colorTextPrimary {
+  color: #233C54;
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #f44336;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+</style><style data-jss="" data-meta="MuiGrid">
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-zeroMinWidth {
+  min-width: 0;
+}
+.MuiGrid-direction-xs-column {
+  flex-direction: column;
+}
+.MuiGrid-direction-xs-column-reverse {
+  flex-direction: column-reverse;
+}
+.MuiGrid-direction-xs-row-reverse {
+  flex-direction: row-reverse;
+}
+.MuiGrid-wrap-xs-nowrap {
+  flex-wrap: nowrap;
+}
+.MuiGrid-wrap-xs-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.MuiGrid-align-items-xs-center {
+  align-items: center;
+}
+.MuiGrid-align-items-xs-flex-start {
+  align-items: flex-start;
+}
+.MuiGrid-align-items-xs-flex-end {
+  align-items: flex-end;
+}
+.MuiGrid-align-items-xs-baseline {
+  align-items: baseline;
+}
+.MuiGrid-align-content-xs-center {
+  align-content: center;
+}
+.MuiGrid-align-content-xs-flex-start {
+  align-content: flex-start;
+}
+.MuiGrid-align-content-xs-flex-end {
+  align-content: flex-end;
+}
+.MuiGrid-align-content-xs-space-between {
+  align-content: space-between;
+}
+.MuiGrid-align-content-xs-space-around {
+  align-content: space-around;
+}
+.MuiGrid-justify-xs-center {
+  justify-content: center;
+}
+.MuiGrid-justify-xs-flex-end {
+  justify-content: flex-end;
+}
+.MuiGrid-justify-xs-space-between {
+  justify-content: space-between;
+}
+.MuiGrid-justify-xs-space-around {
+  justify-content: space-around;
+}
+.MuiGrid-justify-xs-space-evenly {
+  justify-content: space-evenly;
+}
+.MuiGrid-spacing-xs-1 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 4px;
+}
+.MuiGrid-spacing-xs-2 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+}
+.MuiGrid-spacing-xs-3 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+}
+.MuiGrid-spacing-xs-4 {
+  width: calc(100% + 32px);
+  margin: -16px;
+}
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 16px;
+}
+.MuiGrid-spacing-xs-5 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.MuiGrid-spacing-xs-5 > .MuiGrid-item {
+  padding: 20px;
+}
+.MuiGrid-spacing-xs-6 {
+  width: calc(100% + 48px);
+  margin: -24px;
+}
+.MuiGrid-spacing-xs-6 > .MuiGrid-item {
+  padding: 24px;
+}
+.MuiGrid-spacing-xs-7 {
+  width: calc(100% + 56px);
+  margin: -28px;
+}
+.MuiGrid-spacing-xs-7 > .MuiGrid-item {
+  padding: 28px;
+}
+.MuiGrid-spacing-xs-8 {
+  width: calc(100% + 64px);
+  margin: -32px;
+}
+.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+  padding: 32px;
+}
+.MuiGrid-spacing-xs-9 {
+  width: calc(100% + 72px);
+  margin: -36px;
+}
+.MuiGrid-spacing-xs-9 > .MuiGrid-item {
+  padding: 36px;
+}
+.MuiGrid-spacing-xs-10 {
+  width: calc(100% + 80px);
+  margin: -40px;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+  padding: 40px;
+}
+.MuiGrid-grid-xs-auto {
+  flex-grow: 0;
+  max-width: none;
+  flex-basis: auto;
+}
+.MuiGrid-grid-xs-true {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.MuiGrid-grid-xs-1 {
+  flex-grow: 0;
+  max-width: 8.333333%;
+  flex-basis: 8.333333%;
+}
+.MuiGrid-grid-xs-2 {
+  flex-grow: 0;
+  max-width: 16.666667%;
+  flex-basis: 16.666667%;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.MuiGrid-grid-xs-5 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-grid-xs-7 {
+  flex-grow: 0;
+  max-width: 58.333333%;
+  flex-basis: 58.333333%;
+}
+.MuiGrid-grid-xs-8 {
+  flex-grow: 0;
+  max-width: 66.666667%;
+  flex-basis: 66.666667%;
+}
+.MuiGrid-grid-xs-9 {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.MuiGrid-grid-xs-10 {
+  flex-grow: 0;
+  max-width: 83.333333%;
+  flex-basis: 83.333333%;
+}
+.MuiGrid-grid-xs-11 {
+  flex-grow: 0;
+  max-width: 91.666667%;
+  flex-basis: 91.666667%;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:600px) {
+  .MuiGrid-grid-sm-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-sm-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-sm-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-sm-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-sm-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .MuiGrid-grid-md-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-md-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-md-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-md-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-md-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-md-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-md-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1200px) {
+  .MuiGrid-grid-lg-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-lg-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .MuiGrid-grid-xl-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xl-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xl-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xl-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xl-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xl-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xl-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xl-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xl-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xl-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xl-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xl-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xl-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xl-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+</style><style data-jss="" data-meta="CenteredGrid">
+.jss24 {
+  text-align: center;
+}
+</style><style data-jss="" data-meta="CenteredSectionTitle">
+.jss23 {
+  text-align: center;
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: #233C54;
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 100px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(35, 60, 84, 0.04);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #3f51b5;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #E7404A;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(231, 64, 74, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 5px 15px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiButton-outlinedPrimary {
+  color: #3f51b5;
+  border: 1px solid rgba(63, 81, 181, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #3f51b5;
+  background-color: rgba(63, 81, 181, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #E7404A;
+  border: 1px solid rgba(231, 64, 74, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #E7404A;
+  background-color: rgba(231, 64, 74, 0.04);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  background-color: #d5d5d5;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #3f51b5;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #FCFCFC;
+  background-color: #E7404A;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: rgb(207, 57, 66);
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #E7404A;
+  }
+}
+.MuiButton-disableElevation {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:hover {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-focusVisible {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:active {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  box-shadow: none;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-textSizeSmall {
+  padding: 4px 5px;
+  font-size: 0.8125rem;
+}
+.MuiButton-textSizeLarge {
+  padding: 8px 11px;
+  font-size: 0.9375rem;
+}
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+}
+.MuiButton-outlinedSizeLarge {
+  padding: 7px 21px;
+  font-size: 0.9375rem;
+}
+.MuiButton-containedSizeSmall {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+}
+.MuiButton-containedSizeLarge {
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -4px;
+  margin-right: 8px;
+}
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-left: -2px;
+}
+.MuiButton-endIcon {
+  display: inherit;
+  margin-left: 8px;
+  margin-right: -4px;
+}
+.MuiButton-endIcon.MuiButton-iconSizeSmall {
+  margin-right: -2px;
+}
+.MuiButton-iconSizeSmall > *:first-child {
+  font-size: 18px;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 20px;
+}
+.MuiButton-iconSizeLarge > *:first-child {
+  font-size: 22px;
+}
+</style><style data-jss="" data-meta="ActionButton">
+.jss14 {
+  font-family: "Baloo 2";
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.jss15 {
+  border-width: 2px;
+  background-color: #fff;
+}
+.jss15:hover {
+  border-width: 2px;
+}
+.jss15.jss16 {
+  border-width: 2px;
+}
+</style><style data-jss="" data-meta="SectionActionButton">
+.jss25 {
+  margin-top: 40px;
+}
+</style><style data-jss="" data-meta="StyledCenteredSectionTitle">
+.jss22 {
+  max-width: 800px;
+  margin-bottom: 64px;
+}
+</style><style data-jss="" data-meta="UserExperienceMatters">
+.jss40 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+@media (min-width:960px) {
+  .jss40 {
+    flex-direction: row;
+  }
+}
+.jss41 {
+  margin: 16px 0px 0px 0px;
+  align-self: center;
+}
+@media (min-width:960px) {
+  .jss41 {
+    margin: 0 auto;
+  }
+}
+</style><style data-jss="" data-meta="MuiLink">
+.MuiLink-underlineNone {
+  text-decoration: none;
+}
+.MuiLink-underlineHover {
+  text-decoration: none;
+}
+.MuiLink-underlineHover:hover {
+  text-decoration: underline;
+}
+.MuiLink-underlineAlways {
+  text-decoration: underline;
+}
+.MuiLink-button {
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiLink-button::-moz-focus-inner {
+  border-style: none;
+}
+.MuiLink-button.Mui-focusVisible {
+  outline: auto;
+}
+</style><style data-jss="" data-meta="MenuItem">
+.jss9 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 24px;
+  padding-left: 12px;
+  border-bottom: 2px solid transparent;
+  padding-right: 12px;
+  padding-bottom: 8px;
+}
+.jss9:last-child {
+  margin-right: 0;
+}
+.jss9:hover, .jss9:active, .jss9.active {
+  border-bottom: 2px solid #E7404A;
+}
+</style><style data-jss="" data-meta="Menu">
+.jss8 {
+  flex: 1;
+  display: flex;
+  margin-top: 8px;
+  margin-left: 0;
+  flex-direction: row;
+}
+@media (min-width:600px) {
+  .jss8 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (min-width:960px) {
+  .jss8 {
+    margin-left: 152px;
+  }
+}
+</style><style data-jss="" data-meta="MuiPopover">
+.MuiPopover-paper {
+  outline: 0;
+  position: absolute;
+  max-width: calc(100% - 32px);
+  min-width: 16px;
+  max-height: calc(100% - 32px);
+  min-height: 16px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+</style><style data-jss="" data-meta="MuiMenu">
+.MuiMenu-paper {
+  max-height: calc(100% - 96px);
+  -webkit-overflow-scrolling: touch;
+}
+.MuiMenu-list {
+  outline: 0;
+}
+</style><style data-jss="" data-meta="LanguageSwitcherButton">
+.jss10 {
+  margin-top: 8px;
+  text-transform: none;
+}
+</style><style data-jss="" data-meta="Header">
+.jss6 {
+  display: flex;
+  align-items: center;
+  padding-top: 38px;
+  flex-direction: column;
+}
+@media (min-width:600px) {
+  .jss6 {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
+.jss7 {
+  margin-left: 0;
+}
+@media (min-width:600px) {
+  .jss7 {
+    margin-left: 80px;
+  }
+}
+</style><style data-jss="" data-meta="MuiContainer">
+.MuiContainer-root {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.MuiContainer-disableGutters {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media (min-width:600px) {
+  .MuiContainer-fixed {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-fixed {
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px) {
+  .MuiContainer-fixed {
+    max-width: 1200px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-fixed {
+    max-width: 1920px;
+  }
+}
+@media (min-width:0px) {
+  .MuiContainer-maxWidthXs {
+    max-width: 444px;
+  }
+}
+@media (min-width:600px) {
+  .MuiContainer-maxWidthSm {
+    max-width: 600px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-maxWidthMd {
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 1200px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-maxWidthXl {
+    max-width: 1920px;
+  }
+}
+</style><style data-jss="" data-meta="Container">
+.jss5 {
+  position: relative;
+}
+</style><style data-jss="" data-meta="InformationSection">
+.jss20 {
+  background-color: #FFFFFF;
+}
+</style><style data-jss="" data-meta="InformationSectionGrey">
+.jss76 {
+  background-color: #F8F6F6;
+}
+</style><style data-jss="" data-meta="ItalicTypography">
+.jss68 {
+  font-style: italic;
+}
+</style><style data-jss="" data-meta="AgilersFeedbacks">
+.jss70 {
+  margin-bottom: 0;
+}
+.jss71 {
+  top: -84px;
+  left: -360px;
+  width: 560px;
+  height: 503px;
+  content: " ";
+  position: absolute;
+  background: #E3F7FE;
+  border-radius: 100%;
+}
+.jss72 {
+  position: relative;
+  min-height: 196px;
+  flex-direction: column;
+}
+@media (min-width:960px) {
+  .jss72 {
+    flex-direction: row;
+  }
+}
+.jss73 {
+  margin: 16px 0px;
+}
+@media (min-width:600px) {
+  .jss73 {
+    margin: 16px 0px 16px 16px;
+  }
+}
+@media (min-width:960px) {
+  .jss73 {
+    margin: 14px 80px;
+  }
+}
+.jss74 {
+  display: none;
+}
+@media (min-width:600px) {
+  .jss74 {
+    display: block;
+  }
+}
+.jss75 {
+  font-weight: 700;
+}
+</style><style data-jss="" data-meta="LetsBeMoreAgileAndHuman">
+.jss11 {
+  flex: 1;
+  margin: 16px 0px;
+  display: flex;
+  max-width: 430px;
+  margin-left: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width:600px) {
+  .jss11 {
+    margin-left: 80px;
+  }
+}
+.jss12 {
+  margin: 8px 0px 24px;
+}
+</style><style data-jss="" data-meta="AgileStep">
+.jss31 {
+  min-width: 43px;
+  min-height: 36px;
+  text-align: center;
+  margin-right: 16px;
+}
+</style><style data-jss="" data-meta="StyledSection">
+.jss28 {
+  flex: 1;
+  min-width: 349px;
+  margin-left: -24px;
+  margin-right: -24px;
+  justify-content: flex-start;
+  background-color: #FFFFFF;
+}
+@media (min-width:960px) {
+  .jss28 {
+    margin-right: auto;
+    padding-left: 40px;
+  }
+}
+</style><style data-jss="" data-meta="StyledSectionTitle">
+.jss29 {
+  margin-bottom: 24px;
+}
+</style><style data-jss="" data-meta="MLPStep">
+.jss60 {
+  display: flex;
+  min-width: 112px;
+  margin-top: 16px;
+  min-height: 104px;
+  align-items: center;
+  justify-content: center;
+}
+</style><style data-jss="" data-meta="StyledSection">
+.jss52 {
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width:960px) {
+  .jss52 {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
+</style><style data-jss="" data-meta="Quote">
+.jss67 {
+  flex: 1;
+  margin: 24px 0px 8px;
+}
+@media (min-width:600px) {
+  .jss67 {
+    margin: 24px;
+  }
+}
+@media (min-width:960px) {
+  .jss67 {
+    width: 260px;
+    margin: 0px 0px 24px;
+  }
+}
+</style><style data-jss="" data-meta="MLP">
+.jss45 {
+  align-self: flex-end;
+}
+.jss46 {
+  font-size: 56px;
+}
+.jss47 {
+  color: #E7404A;
+}
+.jss48 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-direction: column;
+}
+@media (min-width:1200px) {
+  .jss48 {
+    margin-bottom: 16px;
+    flex-direction: row;
+  }
+}
+.jss49 {
+  margin: 0px 32px;
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+  line-height: 1;
+  flex-direction: column;
+}
+@media (min-width:600px) {
+  .jss49 {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+}
+.jss50 {
+  border-right: 0;
+}
+@media (min-width:600px) {
+  .jss50 {
+    border-right: 2px solid #E7404A;
+    margin-right: 16px;
+    padding-right: 16px;
+  }
+  .jss50:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+.jss51 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (min-width:600px) {
+  .jss51 {
+    flex-direction: row;
+  }
+}
+@media (min-width:960px) {
+  .jss51 {
+    width: 380px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+</style><style data-jss="" data-meta="MainSection">
+.jss4 {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.jss4:before {
+  top: -155px;
+  left: -85px;
+  width: 310px;
+  height: 310px;
+  content: " ";
+  z-index: -1;
+  position: absolute;
+  background: #E3F7FE;
+  border-radius: 100%;
+}
+.jss4:after {
+  top: -90px;
+  left: 609px;
+  width: 1054px;
+  height: 1017px;
+  content: " ";
+  z-index: -1;
+  position: absolute;
+  background: #E3F7FE;
+  border-radius: 100%;
+}
+</style><style data-jss="" data-meta="StyledButton">
+.jss19 {
+  display: block;
+  padding: 0px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px solid #E7404A;
+  border-radius: 0;
+  margin-bottom: 8px;
+  text-transform: none;
+}
+</style><style data-jss="" data-meta="ReadMore">
+.jss18 {
+  margin: 8px 0px;
+  align-self: center;
+  text-align: center;
+}
+</style><style data-jss="" data-meta="InformationSectionBlue">
+.jss26 {
+  background-color: #E3F7FE;
+}
+</style><style data-jss="" data-meta="Home">
+.jss3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (min-width:960px) {
+  .jss3 {
+    flex-direction: row;
+    justify-content: normal;
+  }
+}
+</style><style data-jss="" data-meta="MuiDialog">
+@media print {
+  .MuiDialog-root {
+    position: absolute !important;
+  }
+}
+.MuiDialog-scrollPaper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MuiDialog-scrollBody {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.MuiDialog-scrollBody:after {
+  width: 0;
+  height: 100%;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+.MuiDialog-container {
+  height: 100%;
+  outline: 0;
+}
+@media print {
+  .MuiDialog-container {
+    height: auto;
+  }
+}
+.MuiDialog-paper {
+  margin: 32px;
+  position: relative;
+  overflow-y: auto;
+}
+@media print {
+  .MuiDialog-paper {
+    box-shadow: none;
+    overflow-y: visible;
+  }
+}
+.MuiDialog-paperScrollPaper {
+  display: flex;
+  max-height: calc(100% - 64px);
+  flex-direction: column;
+}
+.MuiDialog-paperScrollBody {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.MuiDialog-paperWidthFalse {
+  max-width: calc(100% - 64px);
+}
+.MuiDialog-paperWidthXs {
+  max-width: 444px;
+}
+@media (max-width:507.95px) {
+  .MuiDialog-paperWidthXs.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthSm {
+  max-width: 600px;
+}
+@media (max-width:663.95px) {
+  .MuiDialog-paperWidthSm.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthMd {
+  max-width: 960px;
+}
+@media (max-width:1023.95px) {
+  .MuiDialog-paperWidthMd.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthLg {
+  max-width: 1200px;
+}
+@media (max-width:1263.95px) {
+  .MuiDialog-paperWidthLg.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthXl {
+  max-width: 1920px;
+}
+@media (max-width:1983.95px) {
+  .MuiDialog-paperWidthXl.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperFullWidth {
+  width: calc(100% - 64px);
+}
+.MuiDialog-paperFullScreen {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  max-width: 100%;
+  max-height: none;
+  border-radius: 0;
+}
+.MuiDialog-paperFullScreen.MuiDialog-paperScrollBody {
+  margin: 0;
+  max-width: 100%;
+}
+</style><style data-jss="" data-meta="StyledDialog">
+.jss2 {
+  max-width: 405px;
+}
+</style><style data-jss="" data-meta="Modal">
+.jss1 {
+  border-radius: 13px;
+}
+</style><link rel="alternate" href="https://beagileframework.com/en" hreflang="en" data-react-helmet="true"><link rel="alternate" href="https://beagileframework.com/pt-br" hreflang="pt-br" data-react-helmet="true"><meta name="description" content="Be Agile Framework uses UX, UI and AGILE practices to support digital products development in a more humane way to achieve fantastic results." data-react-helmet="true"><meta property="og:url" content="https://beagileframework.com/en" data-react-helmet="true"><meta property="og:type" content="website" data-react-helmet="true"><meta property="og:title" content="Be Agile Framework" data-react-helmet="true"><meta property="og:description" content="Be Agile Framework uses UX, UI and AGILE practices to support digital products development in a more humane way to achieve fantastic results." data-react-helmet="true"><meta property="og:image" content="https://beagileframework.com/static/media/logo_social.1fa13549.jpg" data-react-helmet="true"><meta property="og:image:type" content="image/jpeg" data-react-helmet="true"><meta property="og:image:width" content="3750" data-react-helmet="true"><meta property="og:image:height" content="1968" data-react-helmet="true"><meta property="twitter:card" content="summary_large_image" data-react-helmet="true"><meta property="twitter:title" content="Be Agile Framework" data-react-helmet="true"><meta property="twitter:description" content="Be Agile Framework uses UX, UI and AGILE practices to support digital products development in a more humane way to achieve fantastic results." data-react-helmet="true"><meta property="twitter:image" content="https://beagileframework.com/static/media/logo_social.1fa13549.jpg" data-react-helmet="true"></head><body><noscript>Ative o JavaScript para ver o site.</noscript><div id="root"><div class="MuiContainer-root jss5 jss4 MuiContainer-maxWidthLg"><header class="jss6"><img alt="Be Agile" src="/static/media/logo_small.87fd6f97.svg" class="jss7" width="121" height="53"><nav class="jss8"><a aria-current="page" class="MuiTypography-root MuiLink-root jss9 MuiLink-underlineNone MuiTypography-colorTextPrimary active" href="/en">Home</a><a class="MuiTypography-root MuiLink-root jss9 MuiLink-underlineNone MuiTypography-colorTextPrimary" href="/en/overview">Overview</a></nav><button class="MuiButtonBase-root MuiButton-root jss10 MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label"><span class="MuiButton-startIcon MuiButton-iconSizeMedium"><img alt="Language" src="/static/media/language.f0d7f846.svg" width="23" height="23"></span>English<span class="MuiButton-endIcon MuiButton-iconSizeMedium"><img alt="Select language" src="/static/media/arrow_down.d520a3c1.svg" width="14" height="11"></span></span></button></header><section class="jss11"><h1 class="MuiTypography-root MuiTypography-h1 MuiTypography-colorTextPrimary">Let's be more agile and human</h1><p class="MuiTypography-root jss12 MuiTypography-body1 MuiTypography-colorTextPrimary">Be Agile is an agile framework that uses UX, UI and AGILE practices to support digital products development in a more humane way to achieve fantastic results.</p><div class="MuiBox-root jss13"><a class="MuiButtonBase-root MuiButton-root jss14 MuiButton-contained MuiButton-containedSecondary" tabindex="0" role="button" aria-disabled="false" href="/en/overview"><span class="MuiButton-label jss17">Know the framework</span></a><button class="MuiButtonBase-root MuiButton-root jss14 MuiButton-contained MuiButton-containedSecondary" tabindex="0" type="button"><span class="MuiButton-label jss17">Download the ebook</span></button><button class="MuiButtonBase-root MuiButton-root jss14 MuiButton-outlined MuiButton-outlinedSecondary jss15" tabindex="0" type="button"><span class="MuiButton-label jss17">Request training</span></button></div></section><div class="jss18"><button class="MuiButtonBase-root MuiButton-root jss19 MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label">know more</span></button><img alt="know more" src="/static/media/read_more_arrow.0a0afb86.svg" width="11" height="21"></div></div><div class="jss20"><div class="MuiContainer-root jss5 MuiContainer-maxWidthLg"><div><section class="jss21"><h2 class="MuiTypography-root jss23 jss22 MuiTypography-h2 MuiTypography-colorTextPrimary">We believe that people who feel fantastic deliver fantastic results</h2><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4 MuiGrid-align-items-xs-baseline MuiGrid-justify-xs-space-around"><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"><img src="/static/media/better_deliveries_1.0960e76e.svg" width="143" height="101"><p class="MuiTypography-root MuiTypography-body2">Short design and development cycles, allowing you to experiment and learn quickly.</p></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"><img src="/static/media/better_deliveries_2.78ee92ca.svg" width="143" height="101"><p class="MuiTypography-root MuiTypography-body2">The work is guided by user goals and the team only moves forward when it feels safe to do so.</p></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"><img src="/static/media/better_deliveries_3.982c9959.svg" width="143" height="101"><p class="MuiTypography-root MuiTypography-body2">Real value deliveries to users, focusing on their functional goals, one at a time.</p></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3"><img src="/static/media/better_deliveries_4.99d4db66.svg" width="143" height="101"><p class="MuiTypography-root MuiTypography-body2">The framework helps to understand the feelings of team members, stakeholdes and users.</p></div></div><button class="MuiButtonBase-root MuiButton-root jss14 jss25 MuiButton-contained MuiButton-containedSecondary" tabindex="0" type="button"><span class="MuiButton-label jss17">Download the ebook</span></button></section></div></div></div><div class="jss20 jss26"><div class="MuiContainer-root jss5 MuiContainer-maxWidthLg"><div class="MuiBox-root jss27 jss3"><section class="jss21 jss28"><h2 class="MuiTypography-root jss29 MuiTypography-h2 MuiTypography-colorTextPrimary">Modern Agile</h2><div class="MuiBox-root jss30"><div class="MuiBox-root jss32"><div class="MuiBox-root jss33 jss31"><img alt="[object Object]" src="/static/media/modern_agile_1.da4d9bfc.svg" width="40" height="34"></div><p class="MuiTypography-root MuiTypography-body2">Make People Awesome</p></div><div class="MuiBox-root jss34"><div class="MuiBox-root jss35 jss31"><img alt="[object Object]" src="/static/media/modern_agile_2.5bfd5c48.svg" width="26" height="36"></div><p class="MuiTypography-root MuiTypography-body2">Make Safety a Prerequisite</p></div><div class="MuiBox-root jss36"><div class="MuiBox-root jss37 jss31"><img alt="[object Object]" src="/static/media/modern_agile_3.08efff2d.svg" width="43" height="36"></div><p class="MuiTypography-root MuiTypography-body2">Experiment &amp; Learn Rapidly</p></div><div class="MuiBox-root jss38"><div class="MuiBox-root jss39 jss31"><img alt="[object Object]" src="/static/media/modern_agile_4.27e488b7.svg" width="29" height="34"></div><p class="MuiTypography-root MuiTypography-body2">Deliver Value Continuously</p></div></div><p class="MuiTypography-root MuiTypography-body2 MuiTypography-alignCenter"><a class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorTextPrimary" href="https://modernagile.org/" rel="noopener" target="_blank">https://modernagile.org/</a></p></section><section class="jss21"><div class="MuiBox-root jss42 jss40"><div class="MuiBox-root jss43"><h2 class="MuiTypography-root MuiTypography-h2 MuiTypography-colorTextPrimary">User Experience Matters</h2><div class="MuiBox-root jss44">In Be Agile we use User Experience (UX) and User Interface (UI) practices to guide the product development dynamics.</div></div><button class="MuiButtonBase-root MuiButton-root jss14 MuiButton-contained jss41 MuiButton-containedSecondary" tabindex="0" type="button"><span class="MuiButton-label jss17">Send us your feedback</span></button></div><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-justify-xs-space-around"><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"><img src="/static/media/user_experience_matters_1.dec9d240.svg" width="100" height="100"><p class="MuiTypography-root MuiTypography-body2">Engaged users become natural promoters of your product, bringing new users with low to no costs.</p></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"><img src="/static/media/user_experience_matters_2.a63f879e.svg" width="100" height="100"><p class="MuiTypography-root MuiTypography-body2">Well designed products possess a much greater potential for cultural transformation and habit formation.</p></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4"><img src="/static/media/user_experience_matters_3.f4e5da92.svg" width="100" height="100"><p class="MuiTypography-root MuiTypography-body2">Products with greater user engagement also have the potential to grow faster than their rivals.</p></div></div></section></div></div></div><div class="jss20"><div class="MuiContainer-root jss5 MuiContainer-maxWidthLg"><section class="jss21 jss52"><div class="MuiBox-root jss53"><div class="MuiBox-root jss54 jss48"><h2 class="MuiTypography-root jss46 MuiTypography-h2">M<span class="jss47">L</span>P</h2><div class="MuiBox-root jss55 jss49"><div class="MuiBox-root jss56 jss50">viable</div><div class="MuiBox-root jss57 jss50">delighful</div><div class="MuiBox-root jss58 jss50">remarkable</div><div class="MuiBox-root jss59 jss50">tribal</div></div></div><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 MuiGrid-align-items-xs-flex-end MuiGrid-justify-xs-space-around"><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><p class="MuiTypography-root MuiTypography-body1">Identify your audiences</p><div class="MuiBox-root jss61 jss60"><img alt="[object Object]" src="/static/media/mlp_1.46588e87.svg" width="101" height="104"></div></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><p class="MuiTypography-root MuiTypography-body1">Choose one</p><div class="MuiBox-root jss62 jss60"><img alt="[object Object]" src="/static/media/mlp_2.d846da5f.svg" width="56" height="83"></div></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><p class="MuiTypography-root MuiTypography-body1">Enchant</p><div class="MuiBox-root jss63 jss60"><img alt="[object Object]" src="/static/media/mlp_3.c2e5f010.svg" width="56" height="69"></div></div><div class="MuiGrid-root jss24 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-3 MuiGrid-grid-md-3 MuiGrid-grid-lg-3"><p class="MuiTypography-root MuiTypography-body1">Root and expand</p><div class="MuiBox-root jss64 jss60"><img alt="[object Object]" src="/static/media/mlp_4.c7f5209f.svg" width="112" height="88"></div></div></div></div><div class="MuiBox-root jss65"><div class="MuiBox-root jss66 jss51"><p class="MuiTypography-root jss68 jss67 MuiTypography-body1 MuiTypography-colorSecondary MuiTypography-alignCenter">“It is better to build something that a small group of people love than something that a large group of people just likes.”</p><p class="MuiTypography-root jss68 jss67 jss45 MuiTypography-body1 MuiTypography-colorSecondary MuiTypography-alignCenter">“If this small group of people, this tribe, falls in love with your product, a group of fervent defenders will have been born and will help your product to fly.”</p></div><span class="MuiTypography-root jss45 MuiTypography-caption">Sam Altman quote</span></div></section></div></div><div class="MuiBox-root jss69"><div class="jss20 jss76"><div class="MuiContainer-root jss5 MuiContainer-maxWidthLg"><div class="jss71"></div><section class="jss21 jss72"><div class="MuiBox-root jss77"><h2 class="MuiTypography-root MuiTypography-h2 MuiTypography-colorTextPrimary">Agilers Feedbacks</h2><div class="MuiBox-root jss78"><img alt="" class="jss74" src="/static/media/feedback_agilers.ff09c4fa.svg" width="84" height="77"><div class="MuiBox-root jss79 jss73"><p class="MuiTypography-root jss68 MuiTypography-body1">“Be Agile is the first agile framework that recognizes in greater depth, and in a fantastic way, the importance of UX design in digital product development.“</p><p class="MuiTypography-root jss75 MuiTypography-body1 MuiTypography-colorSecondary MuiTypography-alignRight">Marcos Giotto, UX Research</p></div></div></div><div class="MuiBox-root jss80"><button class="MuiButtonBase-root MuiButton-root jss14 MuiButton-contained MuiButton-containedSecondary" tabindex="0" type="button"><span class="MuiButton-label jss17">Download the ebook</span></button><button class="MuiButtonBase-root MuiButton-root jss14 MuiButton-contained jss70 MuiButton-containedSecondary" tabindex="0" type="button"><span class="MuiButton-label jss17">Send your feedback</span></button></div></section></div></div><div class="MuiBox-root jss81"><img alt="Be Agile" src="/static/media/logo_big.cb242834.svg" width="256" height="120"></div></div></div><script type="text/javascript" id="hs-script-loader" async="" defer="defer" src="//js.hs-scripts.com/8861046.js"></script><script>!function(e){function r(r){for(var n,i,a=r[0],c=r[1],l=r[2],s=0,p=[];s<a.length;s++)i=a[s],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&p.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(f&&f(r);p.length;)p.shift()();return u.push.apply(u,l||[]),t()}function t(){for(var e,r=0;r<u.length;r++){for(var t=u[r],n=!0,a=1;a<t.length;a++){var c=t[a];0!==o[c]&&(n=!1)}n&&(u.splice(r--,1),e=i(i.s=t[0]))}return e}var n={},o={1:0},u=[];function i(r){if(n[r])return n[r].exports;var t=n[r]={i:r,l:!1,exports:{}};return e[r].call(t.exports,t,t.exports,i),t.l=!0,t.exports}i.e=function(e){var r=[],t=o[e];if(0!==t)if(t)r.push(t[2]);else{var n=new Promise((function(r,n){t=o[e]=[r,n]}));r.push(t[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"294e23d7"}[e]+".chunk.js"}(e);var c=new Error;u=function(r){a.onerror=a.onload=null,clearTimeout(l);var t=o[e];if(0!==t){if(t){var n=r&&("load"===r.type?"missing":r.type),u=r&&r.target&&r.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,t[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(r)},i.m=e,i.c=n,i.d=function(e,r,t){i.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:t})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,r){if(1&r&&(e=i(e)),8&r)return e;if(4&r&&"object"==typeof e&&e&&e.__esModule)return e;var t=Object.create(null);if(i.r(t),Object.defineProperty(t,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var n in e)i.d(t,n,function(r){return e[r]}.bind(null,n));return t},i.n=function(e){var r=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(r,"a",r),r},i.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},i.p="/",i.oe=function(e){throw console.error(e),e};var a=this["webpackJsonpbe-agile"]=this["webpackJsonpbe-agile"]||[],c=a.push.bind(a);a.push=r,a=a.slice();for(var l=0;l<a.length;l++)r(a[l]);var f=c;t()}([])</script><script src="/static/js/2.1d5a1c79.chunk.js"></script><script src="/static/js/main.bdad33b1.chunk.js"></script></body></html>

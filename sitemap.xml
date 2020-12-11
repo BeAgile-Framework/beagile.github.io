@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://beagileframework.com/</loc>
+        <lastmod>2020-12-14T22:00:00-03:00</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://beagileframework.com/en"/>
+    </url>
+    <url>
+        <loc>https://beagileframework.com/pt-br</loc>
+        <lastmod>2020-12-14T22:00:00-03:00</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://beagileframework.com/en"/>
+    </url>
+    <url>
+        <loc>https://beagileframework.com/pt-br/overview</loc>
+        <lastmod>2020-12-14T22:00:00-03:00</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://beagileframework.com/en/overview"/>
+    </url>
+    <url>
+        <loc>https://beagileframework.com/en</loc>
+        <lastmod>2020-12-14T22:00:00-03:00</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="pt-br" href="https://beagileframework.com/pt-br"/>
+    </url>
+    <url>
+        <loc>https://beagileframework.com/en/overview</loc>
+        <lastmod>2020-12-14T22:00:00-03:00</lastmod>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="pt-br" href="https://beagileframework.com/pt-br/overview"/>
+    </url>
+</urlset>
